@@ -1,0 +1,27 @@
+{
+  "name": "algorithims_workshop",
+  "version": "1.0.0",
+  "description": "class fe_masters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "markpj1"
+  },
+  "keywords": [
+    "algorithims_workshop"
+  ],
+  "author": "mark p jaramillo",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1"
+  }
+}
