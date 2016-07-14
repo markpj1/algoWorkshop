@@ -1,26 +1,26 @@
 //var ngrok = require('ngrok');
-// //constuctor function for pseudo Class or pseudoClass
-// function Building (floors) {
-//   this.floors = floors; //properties (per instance);
-//   this.what = 'stuff';
-// }
-//
-// //Methods for all instances
-// Building.prototype.countFloors = function () {
-//   //console.log(buildingOne);
-//   var textElem = document.getElementById('text');
-//   textElem.innerHTML = '<p>' + 'I have '+ this.floors + ' floors' + '</p>';
-//
-// };
-//
-// //new instances
-// var buildingOne = new Building(15);
-// var buildingTwo = new Building(25);
-//
-// //Invoking unique instances
-// buildingTwo.countFloors();
-// buildingOne.countFloors();
-// console.log('Building.proto: ',Building.prototype);
+//constuctor function for pseudo Class or pseudoClass
+function Building (floors) {
+  this.floors = floors; //properties (per instance);
+  this.what = 'stuff';
+}
+
+//Methods for all instances
+Building.prototype.countFloors = function () {
+  //console.log(buildingOne);
+  var textElem = document.getElementById('text');
+  textElem.innerHTML = '<p>' + 'I have '+ this.floors + ' floors' + '</p>';
+
+};
+
+//new instances
+var buildingOne = new Building(15);
+var buildingTwo = new Building(25);
+
+//Invoking unique instances
+buildingTwo.countFloors();
+buildingOne.countFloors();
+console.log('Building.proto: ',Building.prototype);
 
 
 // var Stack = function () {

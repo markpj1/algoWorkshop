@@ -10,5 +10,5 @@ gulp.task("es6", function () {
 });
 
 gulp.task('default',['es6'], () => {
-	gulp.watch('src/recursion.js', ['es6'])
+	gulp.watch('src/recursion.js', ['es6']);
 });
